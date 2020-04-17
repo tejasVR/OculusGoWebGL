@@ -27,7 +27,7 @@ namespace XPO
 
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.X))
             {
                 ToggleControllerLook(controllerOn);
             }
